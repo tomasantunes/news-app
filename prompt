@@ -1,0 +1,13 @@
+I need you to build an app that fetches news from Newsapi.org and displays them on a webpage.
+
+You are going to build the app with Express.js, you are going to make the API requests with Axios and the front-end with JQuery.
+
+In the back-end you need to make axios requests GET requests to the three following URLs:
+
+- https://newsapi.org/v2/top-headlines?country=us&apiKey=XXXXXXXX
+- https://newsapi.org/v2/top-headlines?country=pt&apiKey=XXXXXXXX
+- https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=XXXXXXXX
+
+From those requests you retrieve response.data.articles which is an array.
+
+On the front-end you create 3 sections for each URL and loop through the arrays. You must create a list of links for each section by grabbing the "title" and "url" keys from each object in the array.

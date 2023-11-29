@@ -1,0 +1,13 @@
+{
+  "name": "newsapi-express",
+  "version": "1.0.0",
+  "description": "An Express.js app that fetches news from Newsapi.org and displays them on a webpage.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1"
+  }
+}
